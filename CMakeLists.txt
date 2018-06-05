@@ -1,0 +1,7 @@
+PROJECT(OpenCP)
+
+INCLUDE("${OpenCP_SOURCE_DIR}/cmake_conf/OpenCP.cmake")
+
+ADD_SUBDIRECTORY("OpenCP")
+ADD_SUBDIRECTORY("testOpenCP")
+
