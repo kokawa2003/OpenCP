@@ -1,27 +1,27 @@
 # OpenCP
 
 
-とりあえず
-https://github.com/norishigefukushima/OpenCP
-をLINUXに移植した。
-何故かというとGCCで動作させたいので。
-やり方
-.slnをcmakeにする。（proj2cmakeを使いました)
-*.libなどいらないファイルを取る
-その後cmakeをqtcreaterで読ませてqmakeにする
-その後コンパイルしてエラーをとり続ける
+とりあえず<br>
+https://github.com/norishigefukushima/OpenCP<br>
+をLINUXに移植した。<br>
+何故かというとGCCで動作させたいので。<br>
+やり方<br>
+.slnをcmakeにする。（proj2cmakeを使いました)<br>
+*.libなどいらないファイルを取る<br>
+その後cmakeをqtcreaterで読ませてqmakeにする<br>
+その後コンパイルしてエラーをとり続ける<br>
 
-動作確認は
-Qt　5.10.1
-QtCreater 4.6.1
-GCC 5.3.1 64bit
-で確認した。
-OSはubuntu 16.4
-部分的にしか動作確認してない。
-いくつか動作しない（コンバートする前から）関数があることは知っている。
-というかBirateral Filterしか確認していない。
-それしか使わないから。
+動作確認は<br>
+Qt　5.10.1<br>
+QtCreater 4.6.1<br>
+GCC 5.3.1 64bit<br>
+で確認した。<br>
+OSはubuntu 16.4<br>
+部分的にしか動作確認してない。<br>
+いくつか動作しない（コンバートする前から）関数があることは知っている。<br>
+というかBirateral Filterしか確認していない。<br>
+それしか使わないから。<br>
 
-コンパイルするには
-OpenCVとfftw3(フーリエ変換）
-が必要です。
+コンパイルするには<br>
+OpenCVとfftw3(フーリエ変換）<br>
+が必要です。<br>
